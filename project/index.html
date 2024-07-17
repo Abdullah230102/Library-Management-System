@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Library Management System</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    background:url('anime-style-cozy-home-interior-with-furnishings.jpg');
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border:1px solid white;
+    backdrop-filter: blur(5px); 
+}
+
+h1, h2 {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: white; 
+    color: #000000; 
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #045cff; 
+    color: white;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Library Management System</h1>
+        <h2>Please select your portal:</h2>
+        <button onclick="window.location.href='admin_login.html'">Admin Portal</button>
+        <button onclick="window.location.href='user_login.html'">User Portal</button>
+    </div>
+</body>
+</html>
